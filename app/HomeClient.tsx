@@ -31,7 +31,7 @@ export default function Home() {
   // =========================================
   // 📦 DBデータ取得
   // =========================================
-  const { boards, load, screenshots, actions } = useBoards();
+  const { boards, load, shots, loadShots, hasScreenshot } = useBoards();
 
   // =========================================
   // activePairをHomeに追加
@@ -208,7 +208,7 @@ export default function Home() {
           >
             <CenterPanel
               boards={boards}
-              screenshots={screenshots}
+              screenshots={shots}
               load={load}
               activePair={activePair}
               setActivePair={setActivePair}
