@@ -2,7 +2,7 @@
 
 export const dynamic = "force-dynamic";
 export const fetchCache = "force-no-store";
-export const revalidate = 0;
+export const refresh = 0;
 
 import { getMarketData } from "@/lib/api/getMarketData";
 import { useEffect, useState } from "react";
