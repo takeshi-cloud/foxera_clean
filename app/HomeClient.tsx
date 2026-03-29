@@ -1,8 +1,5 @@
 "use client";
 
-import HomeClient from "./HomeClient";
-
-
 import { getMarketData } from "@/lib/api/getMarketData";
 import { useEffect, useState } from "react";
 import { DragDropContext } from "@hello-pangea/dnd";
@@ -21,6 +18,7 @@ import { insertBoard, updateBoard } from "@/lib/boardService";
 import { LeftPanel } from "./components/LeftPanel";
 import { CenterPanel } from "./components/CenterPanel";
 import { RightPanel } from "./components/RightPanel";
+
 
 // =========================================
 // 🧠 メインページ（全体管理）
