@@ -1,5 +1,6 @@
 "use client";
 
+import HomeClient from "./HomeClient";
 
 
 import { getMarketData } from "@/lib/api/getMarketData";
